@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DD80B638A26A5A4D08BB92F /* Pods_Magnum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB7661C7F564AFAD4FFD35B /* Pods_Magnum.framework */; };
+		65F6B2C629B0A0C70095D11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2C529B0A0C70095D11E /* AppDelegate.swift */; };
+		65F6B2C829B0A0C70095D11E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2C729B0A0C70095D11E /* SceneDelegate.swift */; };
+		65F6B2D029B0A0C70095D11E /* Magnum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2CE29B0A0C70095D11E /* Magnum.xcdatamodeld */; };
+		65F6B2D229B0A0C80095D11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F6B2D129B0A0C80095D11E /* Assets.xcassets */; };
+		65F6B2D529B0A0C80095D11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F6B2D329B0A0C80095D11E /* LaunchScreen.storyboard */; };
+		65F6B2DF29B0A1F40095D11E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2DE29B0A1F40095D11E /* TabBarViewController.swift */; };
+		65F6B2E229B0A2CA0095D11E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2E129B0A2CA0095D11E /* MainViewController.swift */; };
+		65F6B2E429B0A2F00095D11E /* BucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2E329B0A2F00095D11E /* BucketViewController.swift */; };
+		65F6B2E629B0A3150095D11E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2E529B0A3150095D11E /* ProfileViewController.swift */; };
+		65F6B2E829B0A7AD0095D11E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2E729B0A7AD0095D11E /* AuthViewController.swift */; };
+		65F6B2EB29B0A9F30095D11E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2EA29B0A9F30095D11E /* RegisterViewController.swift */; };
+		65F6B2ED29B0AA000095D11E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2EC29B0AA000095D11E /* LoginViewController.swift */; };
+		65F6B2EF29B0AA170095D11E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2EE29B0AA170095D11E /* ForgotPasswordViewController.swift */; };
+		65F6B2F429B0ABB80095D11E /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2F329B0ABB80095D11E /* AuthHeaderView.swift */; };
+		65F6B2F629B0B3540095D11E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2F529B0B3540095D11E /* CustomTextField.swift */; };
+		65F6B2F929B0B7D80095D11E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2F829B0B7D80095D11E /* CustomButton.swift */; };
+		65F6B2FC29B0CA9F0095D11E /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2FB29B0CA9F0095D11E /* AlertManager.swift */; };
+		65F6B2FE29B0CFEC0095D11E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65F6B2FD29B0CFEC0095D11E /* GoogleService-Info.plist */; };
+		65F6B30029B1B9600095D11E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2FF29B1B9600095D11E /* AuthService.swift */; };
+		65F6B30329B1BA7A0095D11E /* RegisterUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B30229B1BA7A0095D11E /* RegisterUserRequest.swift */; };
+		65F6B30529B1BEC40095D11E /* LoginUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B30429B1BEC40095D11E /* LoginUserRequest.swift */; };
+		65F6B30729B1C6770095D11E /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B30629B1C6770095D11E /* Validator.swift */; };
+		65F6B30929B1D77F0095D11E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B30829B1D77F0095D11E /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C688F2A04001909F8DAF476 /* Pods-Magnum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magnum.debug.xcconfig"; path = "Target Support Files/Pods-Magnum/Pods-Magnum.debug.xcconfig"; sourceTree = "<group>"; };
+		65F6B2C229B0A0C70095D11E /* Magnum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F6B2C529B0A0C70095D11E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65F6B2C729B0A0C70095D11E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65F6B2CF29B0A0C70095D11E /* Magnum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Magnum.xcdatamodel; sourceTree = "<group>"; };
+		65F6B2D129B0A0C80095D11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65F6B2D429B0A0C80095D11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65F6B2D629B0A0C80095D11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F6B2DE29B0A1F40095D11E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		65F6B2E129B0A2CA0095D11E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		65F6B2E329B0A2F00095D11E /* BucketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketViewController.swift; sourceTree = "<group>"; };
+		65F6B2E529B0A3150095D11E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		65F6B2E729B0A7AD0095D11E /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		65F6B2EA29B0A9F30095D11E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		65F6B2EC29B0AA000095D11E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		65F6B2EE29B0AA170095D11E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		65F6B2F329B0ABB80095D11E /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		65F6B2F529B0B3540095D11E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		65F6B2F829B0B7D80095D11E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		65F6B2FB29B0CA9F0095D11E /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		65F6B2FD29B0CFEC0095D11E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65F6B2FF29B1B9600095D11E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		65F6B30229B1BA7A0095D11E /* RegisterUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserRequest.swift; sourceTree = "<group>"; };
+		65F6B30429B1BEC40095D11E /* LoginUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserRequest.swift; sourceTree = "<group>"; };
+		65F6B30629B1C6770095D11E /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		65F6B30829B1D77F0095D11E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F6C0ECD2C8C4009ACD6E3CE1 /* Pods-Magnum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magnum.release.xcconfig"; path = "Target Support Files/Pods-Magnum/Pods-Magnum.release.xcconfig"; sourceTree = "<group>"; };
+		FBB7661C7F564AFAD4FFD35B /* Pods_Magnum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magnum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65F6B2BF29B0A0C70095D11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD80B638A26A5A4D08BB92F /* Pods_Magnum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		489EC107CE72A6EF47E8F87B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C688F2A04001909F8DAF476 /* Pods-Magnum.debug.xcconfig */,
+				F6C0ECD2C8C4009ACD6E3CE1 /* Pods-Magnum.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		65F6B2B929B0A0C70095D11E = {
+			isa = PBXGroup;
+			children = (
+				65F6B2C429B0A0C70095D11E /* Magnum */,
+				65F6B2C329B0A0C70095D11E /* Products */,
+				489EC107CE72A6EF47E8F87B /* Pods */,
+				76A3348E47680AFCA228D4F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65F6B2C329B0A0C70095D11E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F6B2C229B0A0C70095D11E /* Magnum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65F6B2C429B0A0C70095D11E /* Magnum */ = {
+			isa = PBXGroup;
+			children = (
+				65F6B30129B1BA6A0095D11E /* Models */,
+				65F6B2F029B0AB8E0095D11E /* Views */,
+				65F6B2DC29B0A1CD0095D11E /* Controllers */,
+				65F6B2FA29B0CA910095D11E /* Managers */,
+				65F6B30A29B1DB800095D11E /* Resources */,
+				65F6B2FD29B0CFEC0095D11E /* GoogleService-Info.plist */,
+				65F6B2D629B0A0C80095D11E /* Info.plist */,
+				65F6B2CE29B0A0C70095D11E /* Magnum.xcdatamodeld */,
+			);
+			path = Magnum;
+			sourceTree = "<group>";
+		};
+		65F6B2DC29B0A1CD0095D11E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65F6B2E929B0A9D10095D11E /* Authorization */,
+				65F6B2E029B0A29F0095D11E /* Core */,
+				65F6B2E729B0A7AD0095D11E /* AuthViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		65F6B2E029B0A29F0095D11E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				65F6B2DE29B0A1F40095D11E /* TabBarViewController.swift */,
+				65F6B2E129B0A2CA0095D11E /* MainViewController.swift */,
+				65F6B2E329B0A2F00095D11E /* BucketViewController.swift */,
+				65F6B2E529B0A3150095D11E /* ProfileViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		65F6B2E929B0A9D10095D11E /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				65F6B2EA29B0A9F30095D11E /* RegisterViewController.swift */,
+				65F6B2EC29B0AA000095D11E /* LoginViewController.swift */,
+				65F6B2EE29B0AA170095D11E /* ForgotPasswordViewController.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		65F6B2F029B0AB8E0095D11E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65F6B2F729B0B35A0095D11E /* AuthViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65F6B2F729B0B35A0095D11E /* AuthViews */ = {
+			isa = PBXGroup;
+			children = (
+				65F6B2F329B0ABB80095D11E /* AuthHeaderView.swift */,
+				65F6B2F529B0B3540095D11E /* CustomTextField.swift */,
+				65F6B2F829B0B7D80095D11E /* CustomButton.swift */,
+			);
+			path = AuthViews;
+			sourceTree = "<group>";
+		};
+		65F6B2FA29B0CA910095D11E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				65F6B30629B1C6770095D11E /* Validator.swift */,
+				65F6B2FB29B0CA9F0095D11E /* AlertManager.swift */,
+				65F6B2FF29B1B9600095D11E /* AuthService.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		65F6B30129B1BA6A0095D11E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65F6B30229B1BA7A0095D11E /* RegisterUserRequest.swift */,
+				65F6B30429B1BEC40095D11E /* LoginUserRequest.swift */,
+				65F6B30829B1D77F0095D11E /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65F6B30A29B1DB800095D11E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65F6B2C529B0A0C70095D11E /* AppDelegate.swift */,
+				65F6B2C729B0A0C70095D11E /* SceneDelegate.swift */,
+				65F6B2D129B0A0C80095D11E /* Assets.xcassets */,
+				65F6B2D329B0A0C80095D11E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		76A3348E47680AFCA228D4F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBB7661C7F564AFAD4FFD35B /* Pods_Magnum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65F6B2C129B0A0C70095D11E /* Magnum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F6B2D929B0A0C80095D11E /* Build configuration list for PBXNativeTarget "Magnum" */;
+			buildPhases = (
+				FCBE7DBBF73E45107A3BFD4D /* [CP] Check Pods Manifest.lock */,
+				65F6B2BE29B0A0C70095D11E /* Sources */,
+				65F6B2BF29B0A0C70095D11E /* Frameworks */,
+				65F6B2C029B0A0C70095D11E /* Resources */,
+				3AFDB4A1A7FFC189C8F49FBB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnum;
+			productName = Magnum;
+			productReference = 65F6B2C229B0A0C70095D11E /* Magnum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65F6B2BA29B0A0C70095D11E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					65F6B2C129B0A0C70095D11E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 65F6B2BD29B0A0C70095D11E /* Build configuration list for PBXProject "Magnum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65F6B2B929B0A0C70095D11E;
+			productRefGroup = 65F6B2C329B0A0C70095D11E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65F6B2C129B0A0C70095D11E /* Magnum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65F6B2C029B0A0C70095D11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F6B2D529B0A0C80095D11E /* LaunchScreen.storyboard in Resources */,
+				65F6B2FE29B0CFEC0095D11E /* GoogleService-Info.plist in Resources */,
+				65F6B2D229B0A0C80095D11E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AFDB4A1A7FFC189C8F49FBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magnum/Pods-Magnum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magnum/Pods-Magnum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Magnum/Pods-Magnum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCBE7DBBF73E45107A3BFD4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magnum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65F6B2BE29B0A0C70095D11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F6B2FC29B0CA9F0095D11E /* AlertManager.swift in Sources */,
+				65F6B2F629B0B3540095D11E /* CustomTextField.swift in Sources */,
+				65F6B2E829B0A7AD0095D11E /* AuthViewController.swift in Sources */,
+				65F6B2EB29B0A9F30095D11E /* RegisterViewController.swift in Sources */,
+				65F6B2D029B0A0C70095D11E /* Magnum.xcdatamodeld in Sources */,
+				65F6B30529B1BEC40095D11E /* LoginUserRequest.swift in Sources */,
+				65F6B2E429B0A2F00095D11E /* BucketViewController.swift in Sources */,
+				65F6B2C629B0A0C70095D11E /* AppDelegate.swift in Sources */,
+				65F6B2E229B0A2CA0095D11E /* MainViewController.swift in Sources */,
+				65F6B2DF29B0A1F40095D11E /* TabBarViewController.swift in Sources */,
+				65F6B2EF29B0AA170095D11E /* ForgotPasswordViewController.swift in Sources */,
+				65F6B30729B1C6770095D11E /* Validator.swift in Sources */,
+				65F6B2E629B0A3150095D11E /* ProfileViewController.swift in Sources */,
+				65F6B2F429B0ABB80095D11E /* AuthHeaderView.swift in Sources */,
+				65F6B2C829B0A0C70095D11E /* SceneDelegate.swift in Sources */,
+				65F6B30029B1B9600095D11E /* AuthService.swift in Sources */,
+				65F6B30329B1BA7A0095D11E /* RegisterUserRequest.swift in Sources */,
+				65F6B2ED29B0AA000095D11E /* LoginViewController.swift in Sources */,
+				65F6B2F929B0B7D80095D11E /* CustomButton.swift in Sources */,
+				65F6B30929B1D77F0095D11E /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65F6B2D329B0A0C80095D11E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F6B2D429B0A0C80095D11E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65F6B2D729B0A0C80095D11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65F6B2D829B0A0C80095D11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65F6B2DA29B0A0C80095D11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C688F2A04001909F8DAF476 /* Pods-Magnum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Magnum/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Magnum;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unknown.Magnum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65F6B2DB29B0A0C80095D11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C0ECD2C8C4009ACD6E3CE1 /* Pods-Magnum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Magnum/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Magnum;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unknown.Magnum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65F6B2BD29B0A0C70095D11E /* Build configuration list for PBXProject "Magnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F6B2D729B0A0C80095D11E /* Debug */,
+				65F6B2D829B0A0C80095D11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F6B2D929B0A0C80095D11E /* Build configuration list for PBXNativeTarget "Magnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F6B2DA29B0A0C80095D11E /* Debug */,
+				65F6B2DB29B0A0C80095D11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65F6B2CE29B0A0C70095D11E /* Magnum.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65F6B2CF29B0A0C70095D11E /* Magnum.xcdatamodel */,
+			);
+			currentVersion = 65F6B2CF29B0A0C70095D11E /* Magnum.xcdatamodel */;
+			path = Magnum.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65F6B2BA29B0A0C70095D11E /* Project object */;
+}
