@@ -35,9 +35,9 @@ class TabBarViewController: UITabBarController {
         nav2.navigationBar.tintColor = .label
         nav3.navigationBar.tintColor = .label
         
-        nav1.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(named: "main")]
-        nav2.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(named: "main")]
-        nav3.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(named: "main")]
+        nav1.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(named: "main") ?? ""]
+        nav2.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(named: "main") ?? ""]
+        nav3.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(named: "main") ?? ""]
         
         nav1.tabBarItem = UITabBarItem(title: "Catalog", image: UIImage(systemName: "house"), tag: 1)
         nav2.tabBarItem = UITabBarItem(title: "My Cart", image: UIImage(systemName: "basket"), tag: 1)

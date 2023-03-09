@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4DD80B638A26A5A4D08BB92F /* Pods_Magnum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB7661C7F564AFAD4FFD35B /* Pods_Magnum.framework */; };
+		65AF738D29B99655007886E0 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF738C29B99654007886E0 /* SearchResultsViewController.swift */; };
+		65AF739629B9B001007886E0 /* PosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF739529B9B001007886E0 /* PosterCollectionViewCell.swift */; };
+		65AF739829B9BFA7007886E0 /* CatalogueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF739729B9BFA7007886E0 /* CatalogueCollectionViewCell.swift */; };
+		65AF739A29B9CFC1007886E0 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF739929B9CFC1007886E0 /* CategoryViewController.swift */; };
 		65F6B2C629B0A0C70095D11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2C529B0A0C70095D11E /* AppDelegate.swift */; };
 		65F6B2C829B0A0C70095D11E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2C729B0A0C70095D11E /* SceneDelegate.swift */; };
 		65F6B2D029B0A0C70095D11E /* Magnum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2CE29B0A0C70095D11E /* Magnum.xcdatamodeld */; };
@@ -17,7 +21,6 @@
 		65F6B2E229B0A2CA0095D11E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2E129B0A2CA0095D11E /* MainViewController.swift */; };
 		65F6B2E429B0A2F00095D11E /* BucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2E329B0A2F00095D11E /* BucketViewController.swift */; };
 		65F6B2E629B0A3150095D11E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2E529B0A3150095D11E /* ProfileViewController.swift */; };
-		65F6B2E829B0A7AD0095D11E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2E729B0A7AD0095D11E /* AuthViewController.swift */; };
 		65F6B2EB29B0A9F30095D11E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2EA29B0A9F30095D11E /* RegisterViewController.swift */; };
 		65F6B2ED29B0AA000095D11E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2EC29B0AA000095D11E /* LoginViewController.swift */; };
 		65F6B2EF29B0AA170095D11E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F6B2EE29B0AA170095D11E /* ForgotPasswordViewController.swift */; };
@@ -35,6 +38,10 @@
 
 /* Begin PBXFileReference section */
 		0C688F2A04001909F8DAF476 /* Pods-Magnum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magnum.debug.xcconfig"; path = "Target Support Files/Pods-Magnum/Pods-Magnum.debug.xcconfig"; sourceTree = "<group>"; };
+		65AF738C29B99654007886E0 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		65AF739529B9B001007886E0 /* PosterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCollectionViewCell.swift; sourceTree = "<group>"; };
+		65AF739729B9BFA7007886E0 /* CatalogueCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueCollectionViewCell.swift; sourceTree = "<group>"; };
+		65AF739929B9CFC1007886E0 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		65F6B2C229B0A0C70095D11E /* Magnum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F6B2C529B0A0C70095D11E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65F6B2C729B0A0C70095D11E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +53,6 @@
 		65F6B2E129B0A2CA0095D11E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		65F6B2E329B0A2F00095D11E /* BucketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketViewController.swift; sourceTree = "<group>"; };
 		65F6B2E529B0A3150095D11E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		65F6B2E729B0A7AD0095D11E /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		65F6B2EA29B0A9F30095D11E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		65F6B2EC29B0AA000095D11E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		65F6B2EE29B0AA170095D11E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +89,15 @@
 				F6C0ECD2C8C4009ACD6E3CE1 /* Pods-Magnum.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		65AF738E29B99CE3007886E0 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				65AF739529B9B001007886E0 /* PosterCollectionViewCell.swift */,
+				65AF739729B9BFA7007886E0 /* CatalogueCollectionViewCell.swift */,
+			);
+			path = MainViews;
 			sourceTree = "<group>";
 		};
 		65F6B2B929B0A0C70095D11E = {
@@ -123,7 +138,8 @@
 			children = (
 				65F6B2E929B0A9D10095D11E /* Authorization */,
 				65F6B2E029B0A29F0095D11E /* Core */,
-				65F6B2E729B0A7AD0095D11E /* AuthViewController.swift */,
+				65AF738C29B99654007886E0 /* SearchResultsViewController.swift */,
+				65AF739929B9CFC1007886E0 /* CategoryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -152,6 +168,7 @@
 		65F6B2F029B0AB8E0095D11E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				65AF738E29B99CE3007886E0 /* MainViews */,
 				65F6B2F729B0B35A0095D11E /* AuthViews */,
 			);
 			path = Views;
@@ -321,16 +338,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65AF739629B9B001007886E0 /* PosterCollectionViewCell.swift in Sources */,
 				65F6B2FC29B0CA9F0095D11E /* AlertManager.swift in Sources */,
 				65F6B2F629B0B3540095D11E /* CustomTextField.swift in Sources */,
-				65F6B2E829B0A7AD0095D11E /* AuthViewController.swift in Sources */,
 				65F6B2EB29B0A9F30095D11E /* RegisterViewController.swift in Sources */,
 				65F6B2D029B0A0C70095D11E /* Magnum.xcdatamodeld in Sources */,
 				65F6B30529B1BEC40095D11E /* LoginUserRequest.swift in Sources */,
 				65F6B2E429B0A2F00095D11E /* BucketViewController.swift in Sources */,
 				65F6B2C629B0A0C70095D11E /* AppDelegate.swift in Sources */,
+				65AF739A29B9CFC1007886E0 /* CategoryViewController.swift in Sources */,
 				65F6B2E229B0A2CA0095D11E /* MainViewController.swift in Sources */,
 				65F6B2DF29B0A1F40095D11E /* TabBarViewController.swift in Sources */,
+				65AF739829B9BFA7007886E0 /* CatalogueCollectionViewCell.swift in Sources */,
+				65AF738D29B99655007886E0 /* SearchResultsViewController.swift in Sources */,
 				65F6B2EF29B0AA170095D11E /* ForgotPasswordViewController.swift in Sources */,
 				65F6B30729B1C6770095D11E /* Validator.swift in Sources */,
 				65F6B2E629B0A3150095D11E /* ProfileViewController.swift in Sources */,

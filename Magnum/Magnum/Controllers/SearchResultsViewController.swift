@@ -1,13 +1,13 @@
 //
-//  LoginViewController.swift
+//  SearchResultsViewController.swift
 //  Magnum
 //
-//  Created by Tommy on 3/2/23.
+//  Created by Tommy on 3/9/23.
 //
 
 import UIKit
 
-class AuthViewController: UIViewController {
+class SearchResultsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
