@@ -22,6 +22,7 @@ class PosterCollectionViewCell: UICollectionViewCell {
     }()
     
     // MARK: - Lifecycle
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -33,6 +34,7 @@ class PosterCollectionViewCell: UICollectionViewCell {
     }
 
     // MARK: - UI Setup
+    
     private func setupUI() {
         addSubview(imageView)
         

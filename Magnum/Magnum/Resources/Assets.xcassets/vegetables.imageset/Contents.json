@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "18-184983_fresh-vegetables-png-clipart-transparent-download-vegetables-png.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

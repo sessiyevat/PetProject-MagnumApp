@@ -16,7 +16,7 @@ class MainViewController: UIViewController {
     lazy private var categories =
     [
         "Soft Drinks" : "drink" ,
-        "Fruits" : "fruits" ,
+        "Fruits and Vegetables" : "fruits" ,
         "Bakery" : "bakery" ,
         "Household chemicals" : "chemicals" ,
         "House, car, garden" : "garden" ,
@@ -98,7 +98,6 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
             let key = Array(categories.keys)[indexPath.row]
             let value = categories[key]
             cell.configure(categoryName: key, imageName: value ?? "")
-
             return cell
             
         default:
@@ -122,16 +121,18 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
         collectionView.deselectItem(at: indexPath, animated: true)    
         let key = Array(categories.keys)[indexPath.row]
         let vc = CategoryViewController()
-            vc.title = key
-            vc.navigationItem.largeTitleDisplayMode = .never
-            navigationController?.pushViewController(vc, animated: true)
+        vc.title = key
+        vc.navigationItem.largeTitleDisplayMode = .never
+        navigationController?.navigationBar.tintColor = UIColor(named: "main")
+        navigationController?.pushViewController(vc, animated: true)
+            
     }
     
     static func createSectionLayout(section: Int) -> NSCollectionLayoutSection {
         let supplementaryViews  = [
             NSCollectionLayoutBoundarySupplementaryItem(
                 layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(1),
-                                                   heightDimension: .absolute(10)),
+                                                   heightDimension: .absolute(5)),
                 elementKind: UICollectionView.elementKindSectionHeader,
                 alignment: .top)
         ]
